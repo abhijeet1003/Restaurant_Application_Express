@@ -43,7 +43,7 @@ app.use("/api/food",foodRoutes)
 
 // route
 app.get("/", (req, res) => {
-  return res.status(200).send("<h1> Gawar ho kya be </h1>")
+  return res.status(200).send("<h1> Welcome to this Backend Project </h1>")
 });
 
 
